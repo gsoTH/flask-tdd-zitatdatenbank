@@ -1,8 +1,4 @@
-from multiprocessing.dummy import connection
 from flask import Flask
-from flask import request
-from flask import g as globaleVariablen
-import sqlite3
 from ausgelagerte_route import init_app
 
 
